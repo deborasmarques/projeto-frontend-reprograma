@@ -1,0 +1,263 @@
+body{
+    background-image: url('https://cdn.dribbble.com/users/3993860/screenshots/15082603/media/59333c21fdfce0bfca08be99d757709b.png?compress=1&resize=1200x900');
+    background-size: 100%;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+a img{
+    width: 30px;
+    padding: 20px;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 7%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.title img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.search img{
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.search{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.search input{
+    border: none;
+}
+
+.welcome-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.promocao{
+    background-color: #ffe8c7;
+    color: #36404a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background-image: url('https://www.pngarts.com/files/1/Geometric-PNG-Pic.png');
+    background-size: 150%;
+}
+
+.promocao button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.promocao img{
+    width: 50%;
+    padding: 40px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;  
+    padding: 20px;
+    background-color: white;
+}
+
+.btn {
+    background-color: silver; /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    border-radius: 50%;
+    width: auto;
+    cursor: pointer; /* Mouse pointer on hover */
+    margin: 20px
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: gray;
+  }
+
+  .btn img{
+      width: 20px;
+  }
+
+section{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f9f9fb;
+}
+
+.text-promo{
+    width: 50%;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.tipos-comida{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tipos-comida img{
+    width: 30px;
+}
+
+.tipos-bloco-comida{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.tipos-bloco-comida button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+
+.notas img{
+    width: 15px;
+}
+
+.img-comida img{
+    width: 40%;
+}
+
+.img-comida{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-pizza{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+
+.texto-pizza button{
+    margin: 10px;
+}
+
+h4{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 14px;
+}
+
+.items-comida{
+    margin: 20px;
+}
+
+.cartao img{
+    height: 15px;
+}
+
+.cartao{
+    background-color: rgb(2, 2, 95);
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.data-cartao{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+.data-cartao b{
+    font-size: 16px;
+}
+
+.img-comida img{
+    width: 40%;
+}
+
+.finalizar-cardapio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.finalizar-cardapio img{
+    width: 40%;
+    background-color: sandybrown;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h6{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+footer button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,19 @@
+body{
+    background-image: url("./background2.jpeg");
+    background-size: cover;
+    height: 750px;
+    
+}
+
+.simbolo{
+   background-color: rgba(128, 128, 128, 0.123);
+   display: flex;
+   flex-flow: column;
+   align-items: flex-end;
+/*flex-end = fim esquerdo da página*/
+}
+
+#jk{
+    height: 10px;
+}
+

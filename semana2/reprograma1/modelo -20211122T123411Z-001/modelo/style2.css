@@ -1,0 +1,43 @@
+@font-face {
+    font-family:"Dracos";
+    src: url(fonts/WizardWorldSimplified-Kxr7.ttf);
+}
+
+
+body{
+    background-image: url("./imagens/background2.jpeg");
+    background-size: cover;
+    
+}
+.cabecalho {
+    background-color: rgba(155, 132, 132, 0.089);
+}
+
+.fu{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#tu {
+    height: 250px;
+}
+
+.menu{
+    padding: 15px;
+    font-size:24px ;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 8px black;
+    text-decoration: none;
+
+}
+
+.menu--option{
+    transition: 0,3s ease;
+    border-top: 4px solid  rgba(155, 132, 132, 0.089);
+    border-bottom: 4px solid  rgba(155, 132, 132, 0.089);
+    padding :20px 0px ;
+    margin: 0px 20px;
+    text-shadow: black;
+}
